@@ -1,0 +1,195 @@
+.wrapperRectangle34Child {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 35px;
+  top: 54px;
+  transform: scale(1.465);
+}
+.wrapperRectangle34 {
+  height: 350px;
+  width: 200px;
+  position: relative;
+  border-radius: var(--br-xl);
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapperRectangle35Child {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 58px;
+  top: 57px;
+  width: 100%;
+  transform: scale(1.394);
+}
+.wrapperRectangle35 {
+  height: 350px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  min-width: 227px;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mentorShapes {
+  width: 570px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 570px;
+  max-width: 100%;
+}
+.areYouLooking {
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.areYouLooking,
+.coaches,
+.loremIpsumDolor {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.coaches {
+  font-size: var(--font-size-44xl);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-gray-1900);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  color: var(--color-gray-2200);
+}
+.areYouLookingForAMentorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.exploreMore {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-signika);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 114px;
+}
+.exploreButton,
+.mentorDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exploreButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-19xl);
+  background-color: var(--black);
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.exploreButton:hover {
+  background-color: var(--color-darkslategray);
+}
+.mentorDescription {
+  width: 738px;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  min-width: 738px;
+  max-width: 100%;
+}
+.mentorContent,
+.mentorContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.mentorContent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.mentorContentWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-60xl) var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-gray-1600);
+  font-family: var(--font-signika);
+}
+@media screen and (max-width: 1500px) {
+  .mentorDescription,
+  .mentorShapes {
+    flex: 1;
+  }
+  .mentorContent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mentorDescription {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .wrapperRectangle34Child {
+    flex: 1;
+  }
+  .mentorShapes {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .coaches {
+    font-size: var(--font-size-31xl);
+  }
+  .mentorDescription {
+    gap: var(--gap-xl);
+  }
+  .mentorContentWrapper {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .areYouLooking {
+    font-size: var(--font-size-3xl);
+  }
+  .coaches {
+    font-size: var(--font-size-19xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lgi);
+  }
+  .mentorContentWrapper {
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}

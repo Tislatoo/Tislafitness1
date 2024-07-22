@@ -1,0 +1,141 @@
+.joinToday,
+.pricingPlan {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.pricingPlan {
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  display: inline-block;
+  min-width: 127px;
+}
+.joinToday {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.planButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 40px;
+  width: 100px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  display: none;
+}
+.monthly {
+  position: relative;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--font-signika);
+  color: var(--black);
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-lgi) var(--padding-4xs);
+  background-color: var(--white);
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.frameItem {
+  height: 40px;
+  width: 100px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--black);
+  display: none;
+}
+.yearly {
+  position: relative;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  font-family: var(--font-signika);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 45px;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-8xl) var(--padding-4xs);
+  background-color: var(--black);
+  border-radius: var(--br-mini);
+  justify-content: flex-start;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-darkslategray);
+}
+.planButtonParent,
+.planOptions,
+.pricingPlanParent,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.planOptions {
+  box-shadow: 66px 31px 20px transparent, 42px 20px 19px rgba(0, 0, 0, 0.01),
+    24px 11px 16px rgba(0, 0, 0, 0.05), 11px 5px 12px rgba(0, 0, 0, 0.09),
+    3px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  justify-content: flex-start;
+}
+.planButtonParent,
+.pricingPlanParent {
+  align-self: stretch;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-44xl);
+  color: var(--color-firebrick);
+}
+.pricingPlanParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-2200);
+  font-family: var(--font-signika);
+}
+@media screen and (max-width: 850px) {
+  .joinToday {
+    font-size: var(--font-size-31xl);
+  }
+  .planButtonParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pricingPlan {
+    font-size: var(--font-size-lgi);
+  }
+  .joinToday {
+    font-size: var(--font-size-19xl);
+  }
+}

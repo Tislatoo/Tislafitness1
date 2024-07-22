@@ -1,0 +1,213 @@
+.homePageParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.userSideChild,
+.userSideItem {
+  width: 128px;
+  height: 30px;
+  display: none;
+  z-index: 1;
+}
+.userSideItem {
+  z-index: 5;
+}
+.pricingContent,
+.pricingContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pricingContent {
+  flex: 1;
+  flex-direction: column;
+  gap: 44px;
+}
+.pricingContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-36xl) 0 var(--padding-44xl);
+  box-sizing: border-box;
+}
+.contactBannerIcon {
+  width: 100%;
+  height: 425px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 425px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 3;
+}
+.callUsToday {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 4;
+}
+.callToAction {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.number {
+  position: relative;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 4;
+}
+.phoneNumber {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-44xl);
+  color: var(--color-gray-2100);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.4);
+  z-index: 4;
+}
+.contactInfo,
+.contactInfoWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contactInfo {
+  width: 722px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.contactInfoWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 92px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: rgba(255, 255, 255, 0.87);
+  font-family: var(--font-signika);
+}
+.prestaloOnli {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 105px;
+}
+.copyright {
+  width: 413px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer,
+.footerContent,
+.userSide {
+  display: flex;
+  justify-content: flex-start;
+}
+.footerContent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 120px;
+  max-width: 100%;
+}
+.footer,
+.userSide {
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.footer {
+  width: 1045px;
+  flex-direction: row;
+  padding: 0 var(--padding-44xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: rgba(9, 20, 47, 0.7);
+  font-family: var(--font-signika);
+}
+.userSide {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lgi);
+  gap: 95px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .footerContent {
+    gap: var(--gap-41xl);
+  }
+  .footer {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .pricingContent {
+    gap: var(--gap-3xl);
+  }
+  .pricingContentWrapper {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .number {
+    font-size: var(--font-size-31xl);
+  }
+  .userSide {
+    gap: 47px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .callUsToday {
+    font-size: var(--font-size-lgi);
+  }
+  .number {
+    font-size: var(--font-size-19xl);
+  }
+  .footerContent {
+    gap: var(--gap-11xl);
+  }
+  .userSide {
+    gap: var(--gap-5xl);
+  }
+}

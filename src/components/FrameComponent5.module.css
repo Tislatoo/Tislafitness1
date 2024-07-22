@@ -1,0 +1,287 @@
+.loremIpsumDolor,
+.whyChooseUs {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+}
+.whyChooseUs {
+  width: 460px;
+  font-size: inherit;
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  color: var(--color-gray-2200);
+  text-align: center;
+}
+.chooseUsDescription {
+  width: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--grey);
+  width: 100%;
+  height: 100%;
+}
+.boxingGlove01Icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+.rectangleParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.trainerQualifications {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.loremIpsumDolor1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 300;
+  color: var(--color-gray-1000);
+}
+.featureOneContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-sm);
+  min-width: 190px;
+}
+.featureOne,
+.featureRowOne,
+.featureRowOne1,
+.featuresGrid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featureOne {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  min-width: 229px;
+}
+.featureRowOne,
+.featureRowOne1,
+.featuresGrid {
+  gap: var(--gap-41xl);
+}
+.featureRowOne,
+.featureRowOne1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.featuresGrid {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  min-width: 497px;
+}
+.wrapperRectangle29Child {
+  height: 100%;
+  width: 100%;
+  transform: scale(1.413);
+  object-fit: contain;
+  position: absolute;
+  left: 48px;
+  top: 60px;
+}
+.wrapperRectangle29 {
+  height: 410px;
+  width: 284.5px;
+  position: relative;
+  border-radius: 38.03px;
+  transform: rotate(-180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonialQuotesIcon {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  transform: scale(1.499);
+  object-fit: contain;
+  position: absolute;
+  left: 31px;
+  top: 39px;
+  width: 100%;
+  height: 100%;
+}
+.wrapperTestimonialQuotes {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 35.36px;
+  max-width: 100%;
+  max-height: 100%;
+  transform: rotate(-180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonialQuotesIcon1 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  transform: scale(1.499);
+  object-fit: contain;
+  position: absolute;
+  left: 31px;
+  top: 39px;
+  width: 100%;
+  height: 100%;
+}
+.wrapperTestimonialQuotes1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 35.36px;
+  max-width: 100%;
+  max-height: 100%;
+  transform: rotate(-180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial,
+.testimonialContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.testimonialContent {
+  height: 385px;
+  width: 264.5px;
+  flex-direction: column;
+  min-width: 264.5px;
+}
+.testimonial {
+  flex-direction: row;
+  transform: rotate(180deg);
+  min-width: 574.1px;
+  max-width: 100%;
+}
+.chooseUsContent,
+.featuresGridParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.featuresGridParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-68xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-900);
+}
+.chooseUsContent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-71xl);
+  z-index: 1;
+}
+.chooseUsContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl) var(--padding-82xl) var(--padding-43xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-44xl);
+  color: var(--color-gray-1900);
+  font-family: var(--font-signika);
+}
+@media screen and (max-width: 1500px) {
+  .testimonial {
+    flex: 1;
+  }
+  .featuresGridParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .whyChooseUs {
+    font-size: var(--font-size-31xl);
+  }
+  .featureRowOne,
+  .featureRowOne1 {
+    flex-wrap: wrap;
+    gap: var(--gap-11xl);
+  }
+  .featuresGrid {
+    gap: var(--gap-11xl);
+    min-width: 100%;
+  }
+  .testimonialContent,
+  .wrapperRectangle29Child {
+    flex: 1;
+  }
+  .testimonial {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .featuresGridParent {
+    gap: var(--gap-24xl);
+  }
+  .chooseUsContent {
+    gap: var(--gap-26xl);
+  }
+  .chooseUsContentWrapper {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whyChooseUs {
+    font-size: var(--font-size-19xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lgi);
+  }
+  .trainerQualifications {
+    font-size: var(--font-size-xl);
+  }
+  .featureOne {
+    flex-wrap: wrap;
+  }
+  .chooseUsContent,
+  .featuresGridParent {
+    gap: var(--gap-3xl);
+  }
+}

@@ -1,0 +1,312 @@
+.frameChild {
+  width: 406px;
+  height: 506px;
+  position: relative;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.beginnerPlan {
+  min-width: 104px;
+}
+.beginnerPlan,
+.beginnerPlanFeatures,
+.month {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.beginnerPlanFeatures {
+  min-width: 78px;
+  white-space: nowrap;
+}
+.month {
+  min-width: 59px;
+}
+.beginnerPlanDuration {
+  flex-direction: column;
+  padding: var(--padding-10xl) 0 0;
+  font-size: var(--font-size-mid);
+}
+.beginnerPlanDescription,
+.beginnerPlanDuration,
+.expertPlan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.beginnerPlanDescription {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-1900);
+}
+.expertPlan {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  color: var(--color-gray-1700);
+  z-index: 1;
+}
+.planRows {
+  width: 358px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.frameItem {
+  height: 60px;
+  width: 370px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-brown-200);
+  display: none;
+  max-width: 100%;
+}
+.choosePlan {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  font-family: var(--font-signika);
+  color: var(--white);
+  text-align: center;
+  min-width: 112px;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-xl);
+  background-color: var(--color-brown-200);
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-indianred-100);
+}
+.frameInner,
+.rectangleParent {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-5xl) var(--padding-lg)
+    var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+  min-width: 304px;
+  z-index: 1;
+}
+.frameInner {
+  width: 406px;
+  height: 506px;
+  position: relative;
+  background-color: var(--color-brown-100);
+  display: none;
+}
+.premiumPlan {
+  white-space: pre-wrap;
+  min-width: 107px;
+}
+.month1,
+.premiumPlan,
+.premiumPlanPrice {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.premiumPlanPrice {
+  min-width: 78px;
+  white-space: nowrap;
+}
+.month1 {
+  min-width: 59px;
+}
+.premiumPlanDuration,
+.premiumPlanFeatures {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.premiumPlanDuration {
+  flex-direction: column;
+  padding: var(--padding-10xl) 0 0;
+  font-size: var(--font-size-mid);
+}
+.premiumPlanFeatures {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.loremIpsumDolor1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  color: var(--color-gray-1400);
+  z-index: 1;
+}
+.premiumPlanFeaturesParent,
+.premiumPlanParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.premiumPlanFeaturesParent {
+  align-self: stretch;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-2100);
+}
+.premiumPlanParent {
+  width: 358px;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.rectangleDiv {
+  height: 60px;
+  width: 370px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.choosePlan1 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  font-family: var(--font-signika);
+  color: var(--color-brown-100);
+  text-align: center;
+  min-width: 112px;
+  z-index: 1;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-xl);
+  background-color: var(--white);
+  align-self: stretch;
+  border-radius: var(--br-mini);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.groupButton:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.plansGrid,
+.plansGridWrapper,
+.rectangleContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleContainer {
+  flex: 1;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--color-brown-100);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-10xl) var(--padding-5xl) var(--padding-lg)
+    var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+  min-width: 304px;
+  color: var(--color-gray-1300);
+}
+.plansGrid,
+.plansGridWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.plansGrid {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-31xl);
+}
+.plansGridWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-42xl) 0 var(--padding-34xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-1600);
+  font-family: var(--font-signika);
+}
+@media screen and (max-width: 1200px) {
+  .plansGridWrapper {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .beginnerPlanFeatures {
+    font-size: var(--font-size-19xl);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .premiumPlanPrice {
+    font-size: var(--font-size-19xl);
+  }
+  .rectangleContainer {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .plansGrid {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .beginnerPlanFeatures {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-lg);
+  }
+  .premiumPlanPrice {
+    font-size: var(--font-size-10xl);
+  }
+  .rectangleContainer {
+    gap: var(--gap-lg);
+  }
+}

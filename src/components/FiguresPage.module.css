@@ -1,0 +1,176 @@
+.figureContentChild {
+  height: 232px;
+  width: 1550px;
+  position: relative;
+  background-color: var(--grey);
+  display: none;
+  max-width: 100%;
+}
+.statHeadersSeparator {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+}
+.happyMembers {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 98px;
+}
+.happyMembers,
+.ourCommunityIs {
+  position: relative;
+}
+.statHeaders,
+.statTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statTitles {
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-sm);
+}
+.statHeaders {
+  gap: var(--gap-7xs);
+}
+.b,
+.yearExperience {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.yearExperience {
+  font-weight: 600;
+  min-width: 96px;
+}
+.experienceInVarious {
+  position: relative;
+  white-space: nowrap;
+}
+.statHeaders1,
+.yearExperienceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.yearExperienceParent {
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-sm);
+}
+.statHeaders1 {
+  gap: var(--gap-7xs);
+}
+.b1,
+.certifiedTrainers {
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+}
+.certifiedTrainers {
+  font-weight: 600;
+  min-width: 106px;
+}
+.guidanceAtEvery {
+  position: relative;
+}
+.certifiedTrainersParent,
+.statHeaders2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.certifiedTrainersParent {
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-sm);
+}
+.statHeaders2 {
+  gap: var(--gap-7xs);
+}
+.b2 {
+  position: relative;
+  display: inline-block;
+  min-width: 75px;
+}
+.customerSatisfaction {
+  position: relative;
+  font-weight: 600;
+}
+.weEnsureYour {
+  position: relative;
+}
+.customerSatisfactionParent,
+.statHeaders3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.customerSatisfactionParent {
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-sm);
+}
+.statHeaders3 {
+  gap: var(--gap-7xs);
+}
+.statHeadersParent {
+  width: 1327px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.figureContent,
+.figuresPage {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.figureContent {
+  margin-top: -15px;
+  flex: 1;
+  background-color: var(--grey);
+  justify-content: center;
+  padding: var(--padding-53xl) var(--padding-xl);
+  box-sizing: border-box;
+}
+.figuresPage {
+  align-self: stretch;
+  height: 202px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--white);
+  font-family: var(--font-signika);
+}
+@media screen and (max-width: 850px) {
+  .b,
+  .b1,
+  .b2,
+  .statHeadersSeparator {
+    font-size: var(--font-size-10xl);
+  }
+  .statHeadersParent {
+    flex-wrap: wrap;
+  }
+  .figuresPage {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .b,
+  .b1,
+  .b2,
+  .statHeadersSeparator {
+    font-size: var(--font-size-3xl);
+  }
+}

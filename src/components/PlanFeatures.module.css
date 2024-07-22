@@ -1,0 +1,112 @@
+.planFeatureItemsChild {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.loremIpsumDolor,
+.planFeatureItemsChild {
+  position: relative;
+  z-index: 1;
+}
+.planFeatureItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameChild {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.frameChild,
+.loremIpsumDolor1 {
+  position: relative;
+  z-index: 1;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameItem {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.frameItem,
+.loremIpsumDolor2 {
+  position: relative;
+  z-index: 1;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameInner {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.frameInner,
+.loremIpsumDolor3 {
+  position: relative;
+  z-index: 1;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.groupInput {
+  cursor: pointer;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  min-height: 20px;
+}
+.groupInput,
+.loremIpsumDolor4 {
+  position: relative;
+  z-index: 1;
+}
+.frameDiv {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.frameDiv,
+.planFeatureList,
+.planFeatures {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.planFeatureList {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.planFeatures {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xs) var(--padding-13xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-1800);
+  font-family: var(--font-signika);
+}

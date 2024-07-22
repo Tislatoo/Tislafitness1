@@ -1,0 +1,221 @@
+.fitness,
+.tisla {
+  margin: 0;
+}
+.tislaFitness {
+  margin: 0;
+  width: 187px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-signika);
+  color: var(--color-gray-2200);
+  text-align: left;
+}
+.brandDetails,
+.brandInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brandDetails {
+  align-self: stretch;
+  gap: var(--gap-smi);
+}
+.brandInfo {
+  width: 324px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-inter);
+}
+.menu {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.home {
+  text-decoration: none;
+  color: inherit;
+  min-width: 45px;
+}
+.about,
+.home,
+.plans,
+.reviews,
+.trainers {
+  position: relative;
+  display: inline-block;
+}
+.about {
+  text-decoration: none;
+  color: inherit;
+  min-width: 47px;
+}
+.plans,
+.reviews,
+.trainers {
+  min-width: 62px;
+}
+.plans,
+.reviews {
+  min-width: 43px;
+}
+.reviews {
+  min-width: 62px;
+}
+.menuItems {
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-2200);
+}
+.menuItems,
+.navigationLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.socialMedia {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.linkedin02Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.linkedin {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 67px;
+}
+.socialIconLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-mini);
+}
+.facebook02Icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.facebook {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+}
+.socialIconLinks1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.instagramIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.instagram {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 79px;
+}
+.socialIconLinks2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.githubIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.github {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 53px;
+}
+.socialIconLinks3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.footerInfo,
+.socialLinks,
+.socialMediaIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialMediaIcons {
+  gap: var(--gap-mini);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-2300);
+}
+.footerInfo,
+.socialLinks {
+  gap: var(--gap-3xs);
+}
+.footerInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--black);
+  font-family: var(--font-signika);
+}
+@media screen and (max-width: 850px) {
+  .tislaFitness {
+    font-size: var(--font-size-13xl);
+  }
+  .footerInfo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tislaFitness {
+    font-size: var(--font-size-5xl);
+  }
+  .brandInfo {
+    gap: var(--gap-lg);
+  }
+  .menu,
+  .socialMedia {
+    font-size: var(--font-size-lgi);
+  }
+}
